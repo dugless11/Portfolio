@@ -1,3 +1,3 @@
 This project was originally created for my Create Performance Task for AP CSP
 This program is meant to Prime Factorize a number. It also has generates primes for aforementioned Prime Factoriization.
-The prime filter is unoptimized due to time constraints.
+The prime filter is unoptimized due to time constraints, in theory, it could be better to call upon itself recusively to find the next prime, like sieve of eratosthenes, however, I'm unsure if that is more optimized than just running through all the numbers. Or it could just use a better prime test(*cough* is_prime() exists *cough*) however this was just to demonstrate my abilities and idk if is_prime() was allowed on the ap csp create task.
